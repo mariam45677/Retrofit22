@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Results implements Parcelable {
+public class Results  implements Parcelable {
     @SerializedName("vote_count")
     private Integer vote_count;
     @SerializedName("video")
